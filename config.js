@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
-    DATABASE_URL_SL: process.env.DB_URL_SL || 'postgress://localhost/shopping-list'
+    DATABASE_URL: process.env.DB_URL || 'postgress://localhost/knex-practice'
 };
